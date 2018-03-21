@@ -9,6 +9,8 @@ Iterate over the return value of flatten(nested_sequence).
 eg.
 
 ```
+from flattener import flatten
+
 > for x in flatten([1, 2, [3, 4, [5, 6]]]):
     print(x)
 
