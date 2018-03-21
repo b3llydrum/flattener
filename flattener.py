@@ -1,11 +1,10 @@
-'''
-returns each element in a nested sequence
-'''
-
 from collections import Iterable
 
 def flatten(items, ignore_types=(str, bytes)):
-
+    '''
+    returns a flattened iterable with each element in a nested sequence
+    '''
+    
     # iterate over each top-level item
     for item in items:
 
