@@ -1,14 +1,15 @@
-#sequence flattener#
+# sequence flattener
 
-##Purpose:##
+## Purpose:
 "Flattening" a nested sequence. In other words, obtaining each element in a nested array.
 
-##Use:##
+## Use:
 Iterate over the return value of flatten(nested_sequence).
 
 eg.
 
-`> for x in flatten([1, 2, [3, 4, [5, 6]]]):
+```
+> for x in flatten([1, 2, [3, 4, [5, 6]]]):
     print(x)
 
 1
@@ -17,4 +18,4 @@ eg.
 4
 5
 6
-`
+```
